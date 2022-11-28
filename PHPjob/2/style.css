@@ -5,37 +5,37 @@
   
   .header{
     height: 100px;
-    background-color: navy;
+    background-color: #141f40;
   }
   
   .light_blue{
     height: 250px;
     width: 150px;
-    background-color: lightblue;
+    background-color:#80bfa8;
   }
   
   .pink{
     height: 150px;
     width: 100px;
-    background-color:pink;
+    background-color:#ff9e6b;
   }
   
   .yellow{
     height: 50px;
     width: 150px;
-    background-color: yellow;
+    background-color: #dbd400;
   }
   
   .blue{
     height: 100px;
     width: 150px;
-    background-color: blue;
+    background-color: #0093b7;
   }
   
   .brown{
     height: 100px;
     width: 250px;
-    background-color: brown;
+    background-color: #8c2727;
   }
   
   .right {
@@ -48,7 +48,7 @@
   
   .footer{
     height: 100px;
-    background-color: orange;
+    background-color:#d98D30;
   }
   
   .clearfix::after {
