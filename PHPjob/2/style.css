@@ -1,0 +1,58 @@
+.content{
+    width:400px;
+    margin: 0 auto;
+  }
+  
+  .header{
+    height: 100px;
+    background-color: navy;
+  }
+  
+  .light_blue{
+    height: 250px;
+    width: 150px;
+    background-color: lightblue;
+  }
+  
+  .pink{
+    height: 150px;
+    width: 100px;
+    background-color:pink;
+  }
+  
+  .yellow{
+    height: 50px;
+    width: 150px;
+    background-color: yellow;
+  }
+  
+  .blue{
+    height: 100px;
+    width: 150px;
+    background-color: blue;
+  }
+  
+  .brown{
+    height: 100px;
+    width: 250px;
+    background-color: brown;
+  }
+  
+  .right {
+    float: right; 
+  }
+  
+  .left {
+    float: left; 
+  }
+  
+  .footer{
+    height: 100px;
+    background-color: orange;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
