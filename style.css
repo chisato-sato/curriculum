@@ -1,0 +1,34 @@
+.content{
+    width:400px;
+    margin: 0 auto;
+  }
+  
+  .header{
+    height: 100px;
+    background-color: #141f40;
+  }
+  
+  .light_blue{
+    height: 250px;
+    width: 150px;
+    background-color:#80bfa8;
+    float: left; 
+  }
+  
+  .brown{
+    height: 250px;
+    width: 250px;
+    background-color:#8c2727;
+    float: left; 
+  }
+  
+  .footer{
+    height: 100px;
+    background-color:#d98D30;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
