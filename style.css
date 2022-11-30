@@ -1,28 +1,35 @@
-.content{
+.container{
     width:400px;
     margin: 0 auto;
+    justify-content: flex-end;
   }
   
-  .header{
+  .box1 {
+    position: relative;
+    width: 400px;
     height: 100px;
     background-color: #141f40;
-  }
+    z-index: 1;
+    box-sizing: border-box
+}
   
-  .light_blue{
+  
+  .box2{
     height: 250px;
     width: 150px;
     background-color:#80bfa8;
     float: left; 
   }
   
-  .brown{
+  .box3{
     height: 250px;
     width: 250px;
     background-color:#8c2727;
     float: left; 
   }
   
-  .footer{
+  .box4{
+    width: 400px;
     height: 100px;
     background-color:#d98D30;
   }
@@ -31,4 +38,26 @@
     content: "";
     display: block;
     clear: both;
+  }
+
+  .{
+    width: 40px;
+    height: 40px;
+    background-color:#a9004b ;
+  }
+
+  .{
+    width: 40px;
+    height: 40px;
+    background-color:#a9004b ;
+  }
+
+  .{
+    width: 40px;
+    height: 40px;
+    background-color:#a9004b ;
+  }
+
+  .div{
+    display: block;
   }
