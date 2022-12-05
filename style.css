@@ -5,14 +5,28 @@
   }
   
   .box1 {
-    position: relative;
+    display: flex;
+    align-items: center;    /* フレックボックスで縦の中央寄せ */
     width: 400px;
     height: 100px;
     background-color: #141f40;
-    z-index: 1;
-    box-sizing: border-box
+
 }
+  .box1-1 {
+  display: flex;
+  justify-content: space-evenly; / 赤いボックスを均等の間隔で並べる /
+  align-items: center;
+  background-color: white;
+  width: 160px;
+  height: 60px;
+  margin-left: 220px;
+  }
   
+  .box1-1-1 {
+  background-color: #a9004b;
+  width: 40px;
+  height: 40px;
+  }
   
   .box2{
     height: 250px;
@@ -25,7 +39,28 @@
     height: 250px;
     width: 250px;
     background-color:#8c2727;
+    
     float: left; 
+  }
+
+   .box3-1 {
+  display: flex;
+  align-items: center;
+  background-color:#ff863f;
+  width: 140px;
+  height: 40px;
+  margin-left: 40px;
+  border: solid white;
+  border-width: 5px;
+  
+}
+
+  .border{
+   width: 150px;
+   padding: 10px;
+   margin: 0 auto;
+   border-color: white;
+   border-width: 5px;
   }
   
   .box4{
@@ -38,24 +73,6 @@
     content: "";
     display: block;
     clear: both;
-  }
-
-  .{
-    width: 40px;
-    height: 40px;
-    background-color:#a9004b ;
-  }
-
-  .{
-    width: 40px;
-    height: 40px;
-    background-color:#a9004b ;
-  }
-
-  .{
-    width: 40px;
-    height: 40px;
-    background-color:#a9004b ;
   }
 
   .div{
