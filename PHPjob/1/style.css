@@ -6,15 +6,15 @@
   
   .box1 {
     display: flex;
-    align-items: center;    /* フレックボックスで縦の中央寄せ */
-    width: 400px;
+    align-items: center;   
+    width:  400px;
     height: 100px;
     background-color: #141f40;
 
 }
   .box1-1 {
   display: flex;
-  justify-content: space-evenly; / 赤いボックスを均等の間隔で並べる /
+  justify-content: space-evenly;
   align-items: center;
   background-color: white;
   width: 160px;
@@ -52,6 +52,7 @@
   margin-left: 40px;
   border: solid white;
   border-width: 5px;
+  margin: 40px;
   
 }
 
