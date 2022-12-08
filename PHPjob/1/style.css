@@ -52,9 +52,22 @@
   margin-left: 40px;
   border: solid white;
   border-width: 5px;
-  margin: 40px;
+  margin-bottom: 10px;
   
 }
+
+.box3-1:first-child {
+  display: flex;
+  align-items: center;
+  background-color:#ff863f;
+  width: 140px;
+  height: 40px;
+  margin-left: 40px;
+  border: solid white;
+  border-width: 5px;
+  margin-top: 40px;
+  }
+
 
   .border{
    width: 150px;
