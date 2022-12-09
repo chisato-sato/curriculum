@@ -1,0 +1,41 @@
+@media screen and (max-width: 479px) {
+    .container{
+        width:200px;
+      }
+      
+      .box1 {
+        width:  200px;
+        height: 200px;
+    
+    }
+      .box1-1 {
+      width: 60px;
+      height: 160px;
+      margin-left: 70px;
+      flex-direction: column;
+    }
+      
+      .box2{
+        width: 200px;
+        height: 100px;
+      }
+      
+      .box3{
+        width: 200px;
+        height: auto;
+      }
+    
+       .box3-1 {
+      width: 130px;
+      margin-left: 30px;
+    }
+    
+    .box3-1:first-child {
+      margin-top: 20px;
+      }
+
+      .box4{
+        width: 200px;
+      }
+    
+}
