@@ -1,0 +1,35 @@
+<?php
+$fortunenum = [
+    0 => "凶",
+    1,2,3 => "小吉",
+    4,5,6 => "中吉",
+    7,8 => "吉",
+    9 => "大吉"
+];
+
+$number = $_POST["number"];
+
+$array = str_split($number);
+$key = array_rand($array,1);
+$num = $array[$keys];
+
+foreach($fortunenum as $key => $value){
+    if($num == 0){
+        $fortune = "凶";
+    }  elseif($num <= 3){
+        $fortune = "小吉";
+    }  elseif($num <= 6){
+        $fortune = "中吉";
+    }  elseif($num <= 8){
+        $fortune = "吉";
+    } elseif($num = 9 ){
+        $fortune = "大吉";
+    }
+
+}
+
+$today = date("Y-m-d");
+print_r($today);
+
+<p><?php echo $today; ?>の運勢は; </p>
+<p>選ばれた数字は;<?php echo $number; ?> </p>
