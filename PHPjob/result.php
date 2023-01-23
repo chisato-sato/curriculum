@@ -7,30 +7,33 @@ $fortunenum = [
     9 => "大吉"
 ];
 
-$number = $_POST["number"];
 
 $array = str_split($number);
+$number = $_POST["number"];
 $key = array_rand($array,1);
-$num = $array["key"];
-
-foreach($fortunenum as $key => $value){
-    if($num == 0){
-        $fortune = "凶";
-    }  elseif($num <= 3){
-        $fortune = "小吉";
-    }  elseif($num <= 6){
-        $fortune = "中吉";
-    }  elseif($num <= 8){
-        $fortune = "吉";
-    } elseif($num = 9 ){
-        $fortune = "大吉";
-    }
-
-}
+$num = $array["$key"];
 ?>
 
-$today = date("Y-m-d");
-print_r($today);
 
-<p><?php echo $today; ?>の運勢は; </p>
-<p>選ばれた数字は;<?php echo $number; ?> </p>
+
+<p><?php echo date("Y/m/d", time()); ?>の運勢は </p>
+<p>選ばれた数字は<?php echo $num; ?> </p>
+
+<?php
+if($num == 0){
+
+echo "凶";
+}elseif($num >= 1 and $num <= 3){
+
+echo "小吉";
+}elseif($num >= 4 and $num <= 6){
+
+echo "中吉";
+}elseif($num >= 7 and $num <= 8){
+
+echo "吉";
+}else{
+
+echo "大吉";
+}
+?>
